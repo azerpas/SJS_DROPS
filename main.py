@@ -115,14 +115,14 @@ class Raffle(object):
 				"operationName":"RequestOrdertMutation",
 				"variables":{
 					"data":{
-						"firstName":identity['fname'],
-						"lastName":identity['lname'],
-						"email":identity['mail'],
-						"phone":identity['phone'],
-						"country":"250",
-						"city":"Paris",
-						"order":[{"product":dshoes['shoe_id'],"size":identity['shoesize']}],
-						"raffle":dshoes['raffle_id'],
+						"firstName":identity['Vesna'],
+						"lastName":identity['Carapic'],
+						"email":identity['aaronjsgremseck@gmail.com'],
+						"phone":identity['+4915778950810'],
+						"country":"276",
+						"city":"Remseck",
+						"order":[{"product":dshoes['45'],"size":identity['9']}],
+						"raffle":dshoes['49'],
 						"captcha":captchaREP,
 						"date":dateSJS
 					}
