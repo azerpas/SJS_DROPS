@@ -123,7 +123,7 @@ class Raffle(object):
 						"city":"Paris",
 						"order":[{"product":dshoes['shoe_id'],"size":identity['shoesize']}],
 						"raffle":dshoes['raffle_id'],
-						"captcha":captchaREP
+						"captcha":captchaREP,
 						"date":dateSJS
 					}
 				}
